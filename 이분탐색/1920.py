@@ -11,7 +11,7 @@ def binary_search(sorted_list, value):
         elif sorted_list[mid]<value:
             low=mid+1
         else:
-            gprint("1")
+            print("1")
             return
     print('0')
     return
