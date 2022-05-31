@@ -10,6 +10,6 @@ for i in range(count):
     num_list[i]=list(map(int, input().split()))
 
 #정렬함수 사용
-sorted_list=sorted(num_list)
+sorted_list=sorted(num_list,key=lambda x:(x[1], x[0]))
 for i in range(count):
     print(sorted_list[i][0], sorted_list[i][1])
